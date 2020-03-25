@@ -1,0 +1,210 @@
+
+.navbar {
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+ul {
+  list-style-type: none;
+  margin: 5;
+  text-align: center;
+  vertical-align: center;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  vertical-align: center;
+  padding: 0px 0px;
+  text-decoration: none;
+}
+
+li a:hover:(.active) {
+  background-color: transparent;
+    border-bottom: 1px solid #ff0000;
+
+}
+li a:hover:not(.active) {
+  background-color: transparent;
+    border-bottom: 0px solid #ff0000;
+
+}
+
+a.active {
+  text-align: center;
+  vertical-align: center;
+  padding: 30px 10px;
+  color: lightgray;
+  background-color: transparent;
+}
+a:hover {
+  color: yellow;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 150px; 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1.hfooter {
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  font color: #ffffff;
+  padding: 0px 0px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-decoration: none;
+}
+
+h1.htop {
+  color: white;
+  font-weight: normal;
+  font-size: 60px;
+  font color: #ffffff;
+  padding: 0px 50px;
+  letter-spacing: 1px;
+  text-align: left;
+  text-decoration: none;
+}
+
+
+h1.location {
+  color: black;
+  font-weight: normal;
+  font-size: 40px;
+  font color: #ffffff;
+  padding: 0px 50px;
+  letter-spacing: 1px;
+  text-align: center;
+  vertical-align: center;
+  text-decoration: none;
+}
+
+
+
+h1.locations {
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  font color: #ffffff;
+  padding: 0px 50px;
+  letter-spacing: 1px;
+  text-align: left;
+  vertical-align: text-bottom;
+  text-decoration: none;
+}
+
+
+
+{
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 90%;
+  padding: 15px;
+  border-radius: 2px;
+  resize: vertical;
+  background-color: #E8E8E8 ;
+  border-style: none;
+
+}
+
+
+textarea {
+  width: 200%;
+  padding: 0px;
+  border-radius: 2px;
+  resize: vertical;
+  background-color: #E8E8E8 ;
+  border-style: none;
+}
+
+label {
+  width: 100%;
+  padding: 10px 10px 10px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 0px 0px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 0px;
+  width: 100%;
+}
+
+.containerb {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 0px;
+  width: 100%;
+}
+
+.column2 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  height: 70px; 
+}
+
+.button {
+text-align: left;
+font :bold;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
